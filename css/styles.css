@@ -1,0 +1,98 @@
+/* Stylesheet */
+
+body {
+    background-image: url(../img/fiji.png);
+    background-size: cover;
+    text-align: center;
+}
+
+h5 {
+    color: white;
+    text-align: center;
+    text-shadow: 0 0 10px #ff0dec;
+    text-transform: lowercase;
+    font-style: italic
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    text-shadow: 0 0 10px #ff0dec;
+}
+
+body {
+    margin: 0;
+    font-size: 2rem;
+    display: block;
+    align-items: center;
+}
+
+.clock {
+    box-shadow: 0 0 20px 20px rgba(191, 22, 178, 0.8);
+    width: 10rem;
+    height: 10rem;
+    border: 20px solid rgba(191, 22, 178, 0.8);
+    border-radius: 20%;
+    margin: auto;
+    position:relative;
+    padding: 20rem;
+    background-image: url(../img/unicorn.jpg);
+}
+
+.clock-face {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.hand {
+    width: 50%;
+    height: 10px;
+    border-radius: 20px;
+    background: white;
+    box-shadow: 0 0 20px 4px #d80687;
+    position: absolute;
+    top: 50%;
+    transform-origin: 100%;
+    transform: rotate(90deg);
+    transition: all 0.05s;
+    transition-timing-function: cubic-bezier(0.1, 2.7, .58, 1);
+}
+.ui.red.button, .ui.red.buttons .button {
+    background-color: #db2828;
+    color: #fff;
+    text-shadow: none;
+    background-image: none;
+    
+}
+.ui.button {
+    cursor:crosshair;
+    display: inline-block;
+    min-height: 1em;
+    outline: 0;
+    border: none;
+    vertical-align:baseline;
+   background:none;
+    color: rgba(0,0,0,.6);
+    font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+    margin: 0 .25em 0 0;
+    padding: 1em 1.5em .78571429em;
+    text-transform: none;
+    text-shadow: none;
+    font-weight: 700;
+    line-height: em;
+    font-style: normal;
+    text-align: center;
+    text-decoration: none;
+   border-radius: .28571429rem;
+    box-shadow: 0 0 0 1px transparent inset, 0 0 0 0 rgba(34,36,38,.15) inset;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-transition: opacity .1s ease,background-color .1s ease,color .1s ease,box-shadow .1s ease,background .1s ease;
+    transition: opacity .1s ease,background-color .1s ease,color .1s ease,box-shadow .1s ease,background .1s ease;
+    will-change: '';
+    -webkit-tap-highlight-color: transparent;
+    
+}
